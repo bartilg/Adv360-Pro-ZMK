@@ -2,31 +2,31 @@ macro_sup_shft_dwn: macro_sup_shft_dwn{
 compatible = "zmk,behavior-macro";
 label = "macro_sup_shft_dwn";
 #binding-cells = <0>;
-bindings = <&kp LGUI>, <&kp LSHIFT>, <&kp DOWN>;
+bindings = <&kt LGUI>, <&kt LSHFT>, <&kp DOWN>, <&kt LGUI>, <&kt LSHFT>;
 };
 macro_sup_shft_up: macro_sup_shft_up{
 compatible = "zmk,behavior-macro";
 label = "macro_sup_shft_up";
 #binding-cells = <0>;
-bindings = <&kp LGUI>, <&kp LEFT_SHIFT>, <&kp UP>;
+bindings = <&kt LGUI>, <&kt LSHFT>, <&kp UP>, <&kt LGUI>, <&kt LSHFT>;
 };
 macro_sup_shft_rght: macro_sup_shft_rght{
 compatible = "zmk,behavior-macro";
 label = "macro_sup_shft_rght";
 #binding-cells = <0>;
-bindings = <&kp LGUI>, <&kp LSHIFT>, <&kt RIGHT>;
+bindings = <&kt LGUI>, <&kt LSHFT>, <&kt RIGHT>, <&kt LGUI>, <&kt LSHFT>;
 };
 macro_sup_shft_lft: macro_sup_shft_lft{
 compatible = "zmk,behavior-macro";
 label = "macro_sup_shft_lft";
 #binding-cells = <0>;
-bindings = <&kp LGUI>, <&kp LSHFT>, <&kp LEFT>;
+bindings = <&kt LGUI>, <&kt LSHFT>, <&kp LEFT>, <&kt LGUI>, <&kt LSHFT>;
 };
 macro_alt_tab: macro_alt_tab{
 compatible = "zmk,behavior-macro";
 label = "macro_alt_tab";
 #binding-cells = <0>;
-bindings = <&kt LALT>, <&kp TAB>, <&kt LALT>;
+bindings = <&kt LALT>, <&kp TAB>, <&kp TAB>, <&kt LALT>;
 };
 macro_quotes: macro_quotes{
 compatible = "zmk,behavior-macro";
